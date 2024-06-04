@@ -1,4 +1,4 @@
-t getStudentIdsSum = (students) => {
+const getStudentIdsSum = (students) => {
   const id = students.reduce(
     (age, value) => age + value.id, 0,
   );
